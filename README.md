@@ -1,13 +1,3 @@
-Run the container
-
-docker run -p 4000:8080 capstone-project
-Test the running app
-First go to http://0.0.0.0:4000/ to ensure the app is running and accessible.
-
-For training the model: http://0.0.0.0:4000/train
-
-For making predictions using the model: http://0.0.0.0:4000/predict
-
 Reviewing pointers:
 Unit tests for the API: unittests/ApiTests.py
 
